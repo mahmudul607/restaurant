@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <!-- owl carousel -->
+     
+    <link rel="stylesheet" href="./owlCarousel/owl.carousel.css">
+    <link rel="stylesheet" href="./owlCarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="./owlCarousel/owl.theme.default.min.css">
+     <!--/ owl carousel -->
+   <!-- custom style -->
+   <link rel="stylesheet" type="" href="./index.css">
+
+    <!-- Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- end -->
+
+     
+
+    <!-- Tailwind style -->
+     
+
+    <script src="https://cdn.tailwindcss.com"> </script>
+    
+</head>
+
+<body>
+    <div>
+        <!-- Navabr -->
+         <header></header>
+        <nav class="h-16 navbar navbar-expand-lg  fixed-top  lg:px-24 relative">
+            <div class="container-fluid lg:max-w-screen-xl lg:mx-auto">
+                <a class="navbar-brand" href="./index.html">
+
+                    <p class="flex items-center gap-2"><span
+                            class="flex  justify-center  items-center rounded-full w-8 h-8 bg-[#FEBF00] text-[#c52b1f]"><i
+                                class="material-icons  rounded-full bordered  border-2 border-[#c52b1f]">restaurant</i></span><span
+                            class="title text-white font-extrabold">Restaurant</span> </p>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end bg-[#a13432]" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title font-extrabold" id="offcanvasNavbarLabel ">Restaurant</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body ">
+                        <ul class="navbar-nav justify-content-start flex-grow-1 pe-3 pl-8">
+                            <li class="nav-item">
+                                <a class="nav-link active " aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Clients</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Blogs</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+
+                        </ul>
+
+                        <button class="customButton rounded">
+                            <span class="button_curve"></span>
+                            <span class="btn rounded">Book Table</span></button>
+
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+        <!-- end navbar -->
+
+
+        <!-- header offer section -->
+        <div class="header-section pb-12 min-h-screen -top-16 relative">
+
+
+            <div
+                class="header-offer-section min-[200px]:px-4 lg:px-24   justify-center text-white  relative z-40 md:top-32 lg:top-32 min-[200px]:top-16 lg:max-w-screen-xl lg:mx-auto">
+                <div class="md:flex  offer-card">
+                    <div class="item md:w-[50%]  ">
+                        <div class="details lg:pl-16 md:pl-2 flex flex-col">
+                            <h1
+                                class="md:text-4xl sm:text-3xl text-2xl card-title md:absolute font-extrabold top-16 lg:w-[45%] md:w-[60%] uppercase   py-2 pr-2   ">
+                                Taste the authentic
+                                Saudi cuisine</h1>
+                            <p class="lg:mt-44 md:mt-48">Among the best Saudi chefs in the world, serving you something
+                                beyond flavor </p>
+                            <button class="  customButton mt-4 w-32">
+                                <span class="button_curve "></span>
+                                <div class="btn">Explore Menu</div>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="item  md:w-[50%] relative my-4 ">
+                        <div class="min-[200px]:p-0 offer-img-item relative -z-50">
+                            <img class="w-full h-full md:p-0 min-[200px]:p-0"
+                                src="./assets/img/134a1d5ba19b25b4daf3a6c032ddbd7a.jfif" alt="">
+                            <span
+                                class="star-svg absolute max-sm:-z-10 md:-top-8 min-[200px]:-top-4  lg:-right-6 min-[200px]:-right-2 md:-right-2">
+                                <svg width="49" height="49" viewBox="0 0 49 49" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M24.4995 24.5914C24.4995 24.5914 27.6425 29.8451 33.8558 32.8899C40.069 35.9356 47 35.6189 47 35.6189C47 35.6189 43.858 30.3643 37.6448 27.3195C31.4315 24.2747 24.4995 24.5914 24.4995 24.5914ZM24.4995 24.5914C24.4995 24.5914 17.5685 24.2747 11.3552 27.3195C5.142 30.3643 2 35.6189 2 35.6189C2 35.6189 8.93101 35.9356 15.1442 32.8899C21.3575 29.8451 24.4995 24.5914 24.4995 24.5914ZM24.4995 24.4086C24.4995 24.4086 21.3575 19.1549 15.1442 16.1101C8.93101 13.0644 2 13.3819 2 13.3819C2 13.3819 5.142 18.6357 11.3552 21.6813C17.5685 24.7261 24.4995 24.4086 24.4995 24.4086ZM24.4995 24.4086C24.4995 24.4086 31.4315 24.7261 37.6448 21.6813C43.858 18.6357 47 13.3819 47 13.3819C47 13.3819 40.069 13.0644 33.8558 16.1101C27.6425 19.1549 24.4995 24.4086 24.4995 24.4086ZM28.2885 35.9725C28.2885 42.0629 24.4995 47 24.4995 47C24.4995 47 20.7105 42.0629 20.7105 35.9725C20.7105 29.882 24.4995 24.9441 24.4995 24.9441C24.4995 24.9441 28.2885 29.882 28.2885 35.9725ZM20.7105 13.0275C20.7105 6.93793 24.4995 2 24.4995 2C24.4995 2 28.2885 6.93793 28.2885 13.0275C28.2885 19.118 24.4995 24.055 24.4995 24.055C24.4995 24.055 20.7105 19.118 20.7105 13.0275Z"
+                                        stroke="white" stroke-width="2" stroke-miterlimit="10" />
+                                </svg>
+                            </span>
+                            <span
+                                class="flex justify-center items-center rounded-full sm:w-32 sm:h-32 min-[200px]:w-16 min-[200px]:h-16 min-[200px]:p-2  sm:p-4 bg-[#FEBF00] absolute lg:bottom-0 md:bottom-2   min-[200px]:bottom-0 lg:-right-12 md:-right-4  min-[200px]:-right-2">
+                                <div
+                                    class="sm:text-xl min-[200px]:text-xs sm:p-4 min-[200px]:p-2 rounded-full uppercase border-2 border-dotted border-red-600 ">
+                                    <span class="text-red-600">Today Offer</span>
+                                </div>
+
+                            </span>
+
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- end header offer section -->
+
+
+        <!-- service section -->
+        <div class="our-service my-8 relative overflow-hidden">
+            <div class="background_image lg:block hidden">
+                <span class="img"></span>
+            </div>
+            <div class="grid grid-cols-6  lg:mx-36 min-[200px]:mx-8 gap-8">
+
+                <div class="lg:col-span-3 min-[200px]:col-span-6">
+                    <div class="img relative">
+                        <img src="./assets/img/59d1a08b55f1f4e0621185f67f433fba.jfif" alt="">
+                        <div class="absolute top-6 left-4 bg-white rounded-5 flex">
+                            <div class="icon relative p-4">
+                                <svg width="95" height="95" viewBox="0 0 95 95" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M47.6314 2.81333C47.6314 1.51259 48.6867 0.451988 49.9858 0.51698C59.7816 1.00704 69.2025 4.5454 76.9154 10.6672C85.2446 17.2782 91.0917 26.513 93.5057 36.8692C95.9197 47.2255 94.7584 58.0939 90.2108 67.7063C85.6632 77.3187 77.9969 85.1096 68.4589 89.8115C58.921 94.5134 48.0728 95.8496 37.679 93.6028C27.2851 91.356 17.9574 85.6584 11.2131 77.4369C4.46876 69.2153 0.704788 58.9536 0.533458 48.3211C0.374804 38.4753 3.3055 28.8479 8.88229 20.7797C9.62188 19.7097 11.1058 19.5185 12.1375 20.3107C13.1693 21.1028 13.3575 22.578 12.6238 23.6521C7.69138 30.8735 5.10174 39.4628 5.24325 48.2452C5.39745 57.8145 8.78503 67.05 14.8549 74.4494C20.9248 81.8488 29.3198 86.9766 38.6742 88.9988C48.0286 91.0209 57.7921 89.8183 66.3762 85.5866C74.9603 81.3549 81.86 74.3431 85.9529 65.6919C90.0457 57.0407 91.0908 47.2592 88.9183 37.9385C86.7457 28.6179 81.4833 20.3066 73.987 14.3567C67.1072 8.89609 58.7173 5.7194 49.9856 5.23392C48.6868 5.16172 47.6314 4.11408 47.6314 2.81333Z"
+                                        fill="#FEBF00" />
+                                </svg>
+                                <span class=" absolute top-14 left-14 text-xl font-bold">
+                                    50+
+                                </span>
+
+                                <span class="absolute top-8 left-7">
+                                    <svg width="17" height="18" viewBox="0 0 17 18" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="8.7113" cy="8.91698" r="6.18981" fill="white" stroke="#FEBF00"
+                                            stroke-width="4" />
+                                    </svg>
+                                </span>
+
+
+
+
+                            </div>
+                            <div class="details text-left p-6 pl-0 text-xl align-content-center">
+                                <p>Market <br />
+                                    Experiences</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:col-span-3 min-[200px]:col-span-6">
+                    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="pills-about-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-about" type="button" role="tab" aria-controls="pills-about"
+                                aria-selected="true">About</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-experience-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-experience" type="button" role="tab"
+                                aria-controls="pills-experience" aria-selected="false">Experience</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+                                aria-selected="false">Contact</button>
+                        </li>
+
+                    </ul>
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active " id="pills-about" role="tabpanel"
+                            aria-labelledby="pills-about-tab" tabindex="0">
+                            <div class="details-area space-y-4">
+                                <h1 class="text-4xl font-bold uppercase">Exceptional culinary experience and delicious
+                                    food</h1>
+                                <p>Our restaurant serve to you a special food that make you satisfied. Lorem ipsum dolor
+                                    sit amet consectetur adipisicing elit. Natus, libero dignissimos? Sequi, tenetur
+                                    inventore? Iste, dolores. Ducimus eligendi placeat dicta sequi labore doloribus
+                                    dolorum ad quibusdam fugit ipsa. Laboriosam, quibusdam.</p>
+                                <button class="btn bg-[#FEBF00]">About More</button>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-experience" role="tabpanel"
+                            aria-labelledby="pills-experience-tab" tabindex="0">
+                            <div class="details-area space-y-4">
+                                <h1 class="text-4xl font-bold uppercase">Dinner Experience from our Restaurant.</h1>
+                                <p>You got a good experience from our restaurant. Lorem ipsum dolor
+                                    sit amet consectetur adipisicing elit. Natus, libero dignissimos? Sequi, tenetur
+                                    inventore? Iste, dolores. Ducimus eligendi placeat dicta sequi labore doloribus
+                                    dolorum ad quibusdam fugit ipsa. Laboriosam, quibusdam.</p>
+                                <button class="btn bg-[#c3596f]">Experience More</button>
+                            </div>
+
+                        </div>
+                        <div class="tab-pane fade" id="pills-contact" role="tabpanel"
+                            aria-labelledby="pills-contact-tab" tabindex="0">
+                            <form>
+                                <div class="flex-col flex gap-4 ">
+                                    <div class="w-full">
+                                        <input type="text" name="name" value="" placeholder="Your name"
+                                            class="border-1 p-2 w-[49.5%]">
+                                        <input type="text" name="email" value="" placeholder="Your email"
+                                            class="border-1 p-2 w-[49.5%]">
+                                    </div>
+                                    <textarea name="message" id="" placeholder="Your Message"
+                                        class="border-1"></textarea>
+                                    <input class="btn btn-primary" type="submit" value="Send Message">
+                                </div>
+                            </form>
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div
+                    class="lg:col-span-2 md:col-span-3 h-24 min-[200px]:col-span-6    w-full align-content-center flex gap-4  ">
+                    <div
+                        class="icon-area flex justify-content-center items-center w-[80px] h-[80px] p-6 text-[#BD1F17] min-[200px]:text-4xl  font-bold sm:text-4xl md:text-4xl lg:text-5xl   ">
+                        <i class="bi bi-box-seam "></i>
+                    </div>
+                    <div class="details md:w-72 align-content-center">
+                        <h1 class="uppercase font-bold">First Delivery</h1>
+                        <p class="capitalize">within 30 minutes</p>
+                    </div>
+                </div>
+
+                <div
+                    class="lg:col-span-2 md:col-span-3 min-[200px]:col-span-6   w-full align-content-center flex gap-4  ">
+                    <div
+                        class="icon-area flex justify-content-center items-center w-[80px] h-[80px] p-6 text-[#BD1F17] min-[200px]:text-4xl  font-bold sm:text-4xl md:text-4xl lg:text-5xl   ">
+                        <i class="bi bi-award"></i>
+                    </div>
+                    <div class="details md:w-72 align-content-center">
+                        <h1 class="uppercase font-bold">absolute dining</h1>
+                        <p class="capitalize">Best buffet restaurant</p>
+                    </div>
+                </div>
+
+                <div
+                    class="lg:col-span-2 md:col-span-3 min-[200px]:col-span-6   w-full align-content-center flex gap-4 ">
+                    <div
+                        class="icon-area flex justify-content-center items-center w-[80px] h-[80px] p-6 text-[#BD1F17] min-[200px]:text-4xl  font-bold sm:text-4xl md:text-4xl lg:text-5xl   ">
+                        <i class="bi bi-bag "></i>
+                    </div>
+                    <div class="details md:w-72 align-content-center">
+                        <h1 class="uppercase font-bold">pickup delivery</h1>
+                        <p class="capitalize">Grab your food order</p>
+                    </div>
+                </div>
+
+
+
+
+
+            </div>
+        </div>
+
+        <!-- popular product section -->
+        <div class="popular-product">
+            <div class="popular-porduct-carousel pl-48">
+                <div class="owl-carousel owl-theme ">
+                    <div class="item">item-1</div>
+                    <div class="item">item-2</div>
+                    <div class="item">item-3</div>
+                    <div class="item">item-4</div>
+                    <div class="item">item-5</div>
+                    <div class="item">item-6</div>
+                    <div class="item">item-7</div>
+                    <div class="item">item-8</div>
+       
+                   </div>
+            </div>
+
+        </div>
+        <!--/ end popular product section -->
+
+        
+
+    </div>
+
+
+
+    <!-- owl carousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./owlCarousel/owl.carousel.min.js"></script>
+
+
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+
+        <!-- main custom js -->
+    <script src="./main.js"></script>
+
+   
+</body>
+
+</html>

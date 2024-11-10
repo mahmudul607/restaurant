@@ -1,0 +1,149 @@
+.body{
+    overflow-x: hidden;
+    box-sizing: border-box;
+    padding: 0;
+  }
+
+
+.header-section{
+    
+    background-image: url(./assets/bg/e709b27bbda0155da5252a80704b546b.png) ;
+    background-repeat: repeat;
+    background-size: 120px;
+    
+    
+}
+.header-section::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(126, 4, 4, 1);
+    top: 0;
+    left: 0;
+    z-index: 2;
+    opacity: 0.85;
+}
+.navbar{
+    position: sticky !important;
+    top: -20% !important;
+    z-index: 1000;
+    transition: all 0.6s ease-in-out, position 0.6s ease-in-out;
+}
+
+.navbar-scrolled{
+    background: #a13432 !important;
+    top: 0 !important;
+    
+    
+   
+
+}
+/* .navbar{
+    position: sticky;
+    z-index: 1000;
+    top: 20;
+} */
+
+/* offcanvas navbar */
+
+.offcanvas-body .nav-item .nav-link{
+    color: white;
+}
+
+.offcanvas-body .nav-item .nav-link.active{
+    color: #FEBF00;
+}
+
+
+/* offer card */
+
+.card-title{
+    background: linear-gradient(90deg, rgba(189, 31, 23, 0) 32.88%, rgba(189, 31, 23, 0.7) 100%);
+
+}
+
+
+
+/* Vector */
+
+.our-service .icon-area{
+    box-shadow: 2px 5px 5px 2px rgba(136, 136, 136, 0.3);
+    border-radius: 50%;
+   
+}
+
+/* button curve style */
+
+.customButton {
+    background-color: #febf00;
+    color: white;
+    position: relative;
+    overflow: hidden;
+    z-index: 40;
+
+}
+
+.btn:hover {
+    background-color: #febf00;
+    
+}
+
+.customButton .button_curve, .btn-outline .button_curve{
+    position: absolute;
+    right: -15px;
+    top: 0;
+    width: 33px;
+    height: 100%;
+    background: #f58a35;
+    opacity: 0.8;
+    z-index: -1;
+    -webkit-transform: skewX(-22deg);
+    transform: skewX(-22deg);
+    transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+.customButton:hover .button_curve, .btn-outline:hover .button_curve {
+    right: 0;
+    width: 100%;
+    -webkit-transform: skewX(0deg);
+    transform: skewX(0deg);
+}
+
+
+/* service section */
+
+.our-service .background_image{
+    
+    
+    position: absolute;
+    overflow: hidden;
+    right: -11%;
+    width: 209px;
+    height: 200px;
+    top: 60%;
+    
+   
+    
+}
+.our-service .background_image .img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 15px;
+    width: 100%;
+    height: 100%;
+    background: url(./assets/bg/c1aa9b555693793db0fb1c4f28b22547.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1rem;
+    z-index: 100;
+
+}
+
+
