@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurant</title>
     <!-- owl carousel -->
-     
+
     <link rel="stylesheet" href="./owlCarousel/owl.carousel.css">
     <link rel="stylesheet" href="./owlCarousel/owl.carousel.min.css">
     <link rel="stylesheet" href="./owlCarousel/owl.theme.default.min.css">
-     <!--/ owl carousel -->
-   <!-- custom style -->
-   <link rel="stylesheet" type="" href="./index.css">
+    <!--/ owl carousel -->
+    <!-- custom style -->
+    <link rel="stylesheet" type="" href="./index.css">
 
     <!-- Icons -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -21,19 +21,19 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- end -->
 
-     
+
 
     <!-- Tailwind style -->
-     
+
 
     <script src="https://cdn.tailwindcss.com"> </script>
-    
+
 </head>
 
 <body>
     <div>
         <!-- Navabr -->
-         <header></header>
+        <header></header>
         <nav class="h-16 navbar navbar-expand-lg  fixed-top  lg:px-24 relative">
             <div class="container-fluid lg:max-w-screen-xl lg:mx-auto">
                 <a class="navbar-brand" href="./index.html">
@@ -85,7 +85,7 @@
                 </div>
             </div>
         </nav>
-    </header>
+        </header>
         <!-- end navbar -->
 
 
@@ -296,25 +296,171 @@
         </div>
 
         <!-- popular product section -->
-        <div class="popular-product">
-            <div class="popular-porduct-carousel pl-48">
-                <div class="owl-carousel owl-theme ">
-                    <div class="item">item-1</div>
-                    <div class="item">item-2</div>
-                    <div class="item">item-3</div>
-                    <div class="item">item-4</div>
-                    <div class="item">item-5</div>
-                    <div class="item">item-6</div>
-                    <div class="item">item-7</div>
-                    <div class="item">item-8</div>
-       
-                   </div>
+        <div class="popular-product overflow-hidden my-8 relative">
+            <div class="background_image md:block hidden">
+                <span class="img"></span>
+            </div>
+            <div class="popular-porduct-carousel lg:pl-48 md:pl-32 min-[200px]:px-8 space-y-12">
+                <div class="popular-product-title pb-12">
+                    <li class="list-style">Crispy, Every Bite Taste</li>
+                    <h1 class="lg:text-6xl md:text-4xl font-bold uppercase">POPULAR FOOD ITEMS</h1>
+                </div>
+
+                <div class="owl-carousel owl-theme h-[300px]">
+                    <div class="item">
+                        <div class="product text-center space-y-4">
+                            <div class="h-[180px] relative">
+                                <img src="./assets/img/184a30047efa14c4ce6e60786c18fe6e.jfif" alt="">
+                                <div class="w-24 mx-auto border-b-4 border-red-900  bottom-0 absolute left-[30%]"></div>
+                            </div>
+                            <div class="detail-of-product h-[120px]">
+                                <h1 class="uppercase text-xl font-bold">vegetables burger</h1>
+                                <p>Barbecue Italian cuisine pizza</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="item">
+                        <div class="product text-center space-y-4">
+                            <div class="h-[180px] relative">
+                                <img class="w-full h-full" src="./assets/img/f92943a143d37dab4fdb66f1542f7970.png"
+                                    alt="">
+                                <div class="w-24 mx-auto border-b-4 border-red-900  bottom-0 absolute left-[30%]"></div>
+                            </div>
+                            <div class="detail-of-product h-[120px]">
+                                <h1 class="uppercase text-xl font-bold">Spacial Pizza</h1>
+                                <p>Barbecue Italian cuisine pizza</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="product text-center space-y-4">
+                            <div class="relative h-[180px]">
+                                <img class="w-full h-full" src="./assets/img/b820f37564100d79a40fa0793ded35d2.jfif"
+                                    alt="">
+                                <div class="w-24 mx-auto border-b-4 border-red-900  bottom-0 absolute left-[30%]"></div>
+                            </div>
+                            <div class="detail-of-product h-[120px]">
+                                <h1 class="uppercase text-xl font-bold">Spacial French fries</h1>
+                                <p>Barbecue Italian cuisine</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="product text-center space-y-4">
+                            <div class="relative h-[180px]">
+                                <img class="w-full h-full" src="./assets/img/c96692a063207f1692d13a65e436d78b.jfif"
+                                    alt="">
+                                <div class="w-24 mx-auto border-b-4 border-red-900  bottom-0 absolute left-[30%]"></div>
+                            </div>
+                            <div class="detail-of-product h-[120px] ">
+                                <h1 class="uppercase text-xl font-bold">Cuisine Chicken</h1>
+                                <p>Japanese Cuisine Chicken</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
             </div>
 
         </div>
         <!--/ end popular product section -->
 
-        
+        <!-- Book your table -->
+        <div class="book-table-section h-screen  ">
+            <div class="bg-img">
+            <div class="book-table-content lg:pt-32 sm:pt-16 text-white  lg:max-w-[545px] min-[200px]:max-w-full lg:ml-48 md:ml-32 sm:mx-16 minp[200px]:mx-8 lg:mr-auto md:mr-8 ">
+                <div>
+                    <div class="booking-tilte space-y-6">
+                        <li class="list-style">Buy Now</li>
+                        <h1 class="lg:text-4xl sm:text-xl font-bold uppercase">Book Your Table</h1>
+                        <p>Enim tempor eget pharetra facilisis sed maecenas adipiscing. Eu leo molestie vel, ornare non id
+                            blandit netus.</p>
+                    </div>
+                    <form class="flex flex-column gap-4 py-6 text-white bg-transparent">
+                        <span class="w-full">
+                            <input class="w-[49.5%] border-1 bg-transparent p-2" type="text" name="name" placeholder="Name">
+                            <input class="w-[49.5%] border-1 bg-transparent p-2" type="text" name="email" placeholder="Email">
+                        </span>
+                        <span class="w-full">
+                            <input class="w-[49.5%] border-1 bg-transparent  p-2 " type="date" name="date" placeholder="Reservation Date">
+                            <input class="w-[49.5%] border-1 bg-transparent  p-2 " type="number" name="people" placeholder="Number of People" min="1">
+                        </span>
+                        
+                        <textarea class="bg-transparent border-1" name="message" id="bookingMessage" placeholder="Message"></textarea>
+    
+                        <input class="btn bg-[#FEBF00]" type="submit" value="Book Now">
+                    </form>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!--/ Book your table -->
+
+        <!-- people say -->
+        <!--/ people say -->
+
+
+        <!--  footer -->
+          <div class="footer-area h-screen">
+            <div class="bg-img">
+                <div class="main-area text-center space-y-12 lg:pt-48 md:pt-32 sm:pt-16 text-white">
+                    <div class="title">
+                        <h1 class="lg:text-4xl md:text-2xl uppercase font-bold">We ready to have you the best dining experiences</h1>
+                    </div>
+                    <div class="we-meet flex gap-4 flex-cols-4">
+                        <div class="item col sm:col-span-4 md:col-span-2">
+                            <i class="bi text-[#FEBF00] lg:text-4xl md:text-2xl min-[200px]:text-md font-extrabold bi-clock"></i>
+                            <div class="details">
+                                <h4 class="lg:text-2xl md:text-xl min-[200px]:text-sm font-bold uppercase">Opening hours</h4>
+                                <p class="text-xs">Monday - Sunday <br/>
+                                    9:00 AM to 11:30 PM</p>
+                            </div>
+                        </div>
+                        <div class="item col sm:col-span-4 md:col-span-2">
+                            <i class="bi text-[#FEBF00] lg:text-4xl md:text-2xl min-[200px]:text-md font-extrabold bi-telephone-outbound"></i>
+                            <div class="details">
+                                <h4 class="lg:text-2xl md:text-xl min-[200px]:text-sm font-bold uppercase">LET'S TALK</h4>
+                                <p class="text-xs">Phone: 1-800-222-4545 <br/>
+                                    Fax: 1-800-222-4545</p>
+                            </div>
+                        </div>
+                        <div class="item col sm:col-span-4 md:col-span-2">
+                            <i class="bi text-[#FEBF00] lg:text-4xl md:text-2xl min-[200px]:text-md font-extrabold bi-envelope"></i>
+                            <div class="details">
+                                <h4 class="lg:text-2xl md:text-xl min-[200px]:text-sm font-bold uppercase">BOOK A TABLE</h4>
+                                <p class="text-xs">
+                                    Email: demo@website.com <br/>
+                                    Support: support@website.com
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item col sm:col-span-4 md:col-span-2">
+                            <i class="bi text-[#FEBF00] lg:text-4xl md:text-2xl min-[200px]:text-md font-extrabold bi-geo-alt"></i>
+                            <div class="details">
+                                <h4 class="lg:text-2xl md:text-xl min-[200px]:text-sm font-bold uppercase">Our Address</h4>
+                                <p class="text-xs">123 Stree New York City , United States Of America.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="copy-write-area text-center">
+                        <div class="quick-contact flex gap-4 justify-center">
+                            <i class="bi bi-facebook"></i>
+                            <i class="bi bi-twitter"></i>
+                            <i class="bi bi-linkedin"></i>
+                            
+                            <i class="bi bi-instagram"></i>
+                        </div>
+                        <p class="text-xs">© 2024 All Rights Reserved </p>
+                    </div>
+                </div>
+            </div>
+          </div>
+        <!--  footer -->
+
+
 
     </div>
 
@@ -322,8 +468,8 @@
 
     <!-- owl carousel -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
-    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="./owlCarousel/owl.carousel.min.js"></script>
 
 
@@ -335,10 +481,10 @@
         integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
         crossorigin="anonymous"></script>
 
-        <!-- main custom js -->
+    <!-- main custom js -->
     <script src="./main.js"></script>
 
-   
+
 </body>
 
 </html>
