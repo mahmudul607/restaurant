@@ -47,7 +47,7 @@
     color: white;
 }
 
-.offcanvas-body .nav-item .nav-link.active{
+.offcanvas-body .main-nav-link:hover{
     color: #FEBF00;
 }
 

@@ -1,0 +1,22 @@
+.about-section{
+    
+    background-image: url(./assets/img/coffee-cup-hand-with-medical-gloves-isolated-blue-background-female-hand-with-paper-cup_134319-1705.avif) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    
+    
+}
+.show{
+    display: block !important;
+}
+
+.collapse {
+    visibility: visible !important;
+}
+
+.accordion-item {
+    
+    background-color: rgba(254, 191, 0, 0.4) !important;
+   
+}

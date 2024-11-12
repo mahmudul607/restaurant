@@ -1,11 +1,234 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Restaurant</title>
+       
+        <!-- custom style -->
+        
+
+       
+
+
     
+        <!-- Icons -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!-- end -->
+
+        <link rel="stylesheet" type="" href="./index.css">
+        <link rel="stylesheet" type="text/css" href="./about.css">
+    
+    
+    
+        <!-- Tailwind style -->
+        
+    
+    
+        <script src="https://cdn.tailwindcss.com"> </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+    </head>
+<body>
+    <div>
+        <nav class="h-16 navbar navbar-expand-lg  fixed-top  lg:px-24 relative">
+            <div class="container-fluid lg:max-w-screen-xl lg:mx-auto">
+                <a class="navbar-brand" href="./index.html">
+
+                    <p class="flex items-center gap-2"><span
+                            class="flex  justify-center  items-center rounded-full w-8 h-8 bg-[#FEBF00] text-[#c52b1f]"><i
+                                class="material-icons  rounded-full bordered  border-2 border-[#c52b1f]">restaurant</i></span><span
+                            class="title text-white font-extrabold">Restaurant</span> </p>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end bg-[#a13432]" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title font-extrabold" id="offcanvasNavbarLabel ">Restaurant</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body ">
+                        <ul class="navbar-nav justify-content-start flex-grow-1 pe-3 pl-8">
+                            <li class="nav-item">
+                                <a class="nav-link active " aria-current="page" href="./index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Clients</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Blogs</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+
+                        </ul>
+
+                        <button class="customButton rounded">
+                            <span class="button_curve"></span>
+                            <span class="btn rounded">Book Table</span></button>
+
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+
+         <!-- header offer section -->
+         <div class="about-section  min-h-screen -top-16 relative">
+
+            <div class="flex-lg-row flex flex-md-column gap-2 pt-44 md:px-24 lg:px-24 min-[200px]:px-6 justify-between">
+                <div class="staff-photo lg:h-[400px] min-[200px]:w-full lg:w-[50%]">
+                    <img class="w-full h-full rounded" src="./assets/img/efffc28c62aa90f41b3f32f793ab5dcc.jpg" alt="">
+                </div>
+                <div class="about-details lg:h-[400px] min-[200px]:w-full lg:w-[50%] px-6">
+                    <div class="card-title lg:text-4xl text-left pb-2 font-bold text-[#FEBF00]">
+                        About Our Restaurant
+                    </div>
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              Food Qualities
+                            </button>
+                          </h2>
+                          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample" >
+                            <div class="accordion-body">
+                                <li><strong>Freshness Checks:</strong> Perform regular checks on the freshness of ingredients, such as vegetables, meats, and seafood. Use a “first-in, first-out” (FIFO) inventory system to ensure older ingredients are used before newer ones.</li>
+                                <li><strong>Organic and Local Sourcing:</strong> Where possible, prioritize organic and locally sourced ingredients to ensure freshness, minimize transport time, and support sustainability.</li>
+                                
+                                
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              Behavior of Staff
+                            </button>
+                          </h2>
+                          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample" style="">
+                            <div class="accordion-body">
+                             <li>Good Communication with Clients or Customers</li>
+                             <li>Full Fill The Customer Requirement As possible</li>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                             Security Groups
+                            </button>
+                          </h2>
+                          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                             <li>We have a security group they give security for any of our client and customer in our area.</li>
+                             <li>The security group detects the theft and punishes it.</li>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+
+
+            
+
+        </div>
+        <!-- end header offer section -->
+
+
+         <!--  footer -->
+         <div class="footer-area -top-16 relative ">
+            <div class="bg-img pb-12">
+                <div class="main-area text-center space-y-12 lg:pt-48 md:pt-32 min-[200px]:pt-4 text-white">
+                    <div class="title">
+                        <h1 class="lg:text-4xl md:text-2xl uppercase font-bold">We ready to have you the best dining
+                            experiences</h1>
+                    </div>
+                    <div class="we-meet grid gap-4 grid-cols-4">
+                        <div class="item lg:col-span-1 min-[200px]:col-span-4 md:col-span-2">
+                            <i
+                                class="bi text-[#FEBF00] lg:text-4xl md:text-2xl min-[200px]:text-md font-extrabold bi-clock"></i>
+                            <div class="details">
+                                <h4 class="lg:text-2xl md:text-xl min-[200px]:text-sm font-bold uppercase">Opening hours
+                                </h4>
+                                <p class="text-xs">Monday - Sunday <br />
+                                    9:00 AM to 11:30 PM</p>
+                            </div>
+                        </div>
+                        <div class="item lg:col-span-1 min-[200px]:col-span-4 md:col-span-2">
+                            <i
+                                class="bi text-[#FEBF00] lg:text-4xl md:text-2xl min-[200px]:text-md font-extrabold bi-telephone-outbound"></i>
+                            <div class="details">
+                                <h4 class="lg:text-2xl md:text-xl min-[200px]:text-sm font-bold uppercase">LET'S TALK
+                                </h4>
+                                <p class="text-xs">Phone: 1-800-222-4545 <br />
+                                    Fax: 1-800-222-4545</p>
+                            </div>
+                        </div>
+                        <div class="item lg:col-span-1 min-[200px]:col-span-4 md:col-span-2">
+                            <i
+                                class="bi text-[#FEBF00] lg:text-4xl md:text-2xl min-[200px]:text-md font-extrabold bi-envelope"></i>
+                            <div class="details">
+                                <h4 class="lg:text-2xl md:text-xl min-[200px]:text-sm font-bold uppercase">BOOK A TABLE
+                                </h4>
+                                <p class="text-xs">
+                                    Email: demo@website.com <br />
+                                    Support: support@website.com
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item lg:col-span-1 min-[200px]:col-span-4 md:col-span-2">
+                            <i
+                                class="bi text-[#FEBF00] lg:text-4xl md:text-2xl min-[200px]:text-md font-extrabold bi-geo-alt"></i>
+                            <div class="details">
+                                <h4 class="lg:text-2xl md:text-xl min-[200px]:text-sm font-bold uppercase">Our Address
+                                </h4>
+                                <p class="text-xs">123 Stree New York City , United States Of America.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="copy-write-area text-center">
+                        <div class="quick-contact flex gap-4 justify-center">
+                            <i class="bi bi-facebook"></i>
+                            <i class="bi bi-twitter"></i>
+                            <i class="bi bi-linkedin"></i>
+
+                            <i class="bi bi-instagram"></i>
+                        </div>
+                        <p class="text-xs">© 2024 All Rights Reserved </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--  footer -->
+    </div>
+    
+
+   
+ <!-- bootstrap -->
+
+    
+ 
+
+ <!-- main custom js -->
+ <script src="./main.js"></script>
+ 
 </body>
 </html>
