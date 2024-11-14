@@ -36,13 +36,13 @@
 <body>
     <div>
         <nav class="h-16 navbar navbar-expand-lg  fixed-top  lg:px-24 relative">
-            <div class="container-fluid lg:max-w-screen-xl lg:mx-auto">
+            <div class="container-fluid lg:max-w-screen-xl lg:mx-auto ">
                 <a class="navbar-brand" href="./index.html">
 
                     <p class="flex items-center gap-2"><span
                             class="flex  justify-center  items-center rounded-full w-8 h-8 bg-[#FEBF00] text-[#c52b1f]"><i
                                 class="material-icons  rounded-full bordered  border-2 border-[#c52b1f]">restaurant</i></span><span
-                            class="title text-white font-extrabold">Restaurant</span> </p>
+                            class="title text-white font-extrabold ">Restaurant</span> </p>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
@@ -51,7 +51,7 @@
                 <div class="offcanvas offcanvas-end bg-[#a13432]" tabindex="-1" id="offcanvasNavbar"
                     aria-labelledby="offcanvasNavbarLabel">
                     <div class="offcanvas-header">
-                        <h5 class="offcanvas-title font-extrabold" id="offcanvasNavbarLabel ">Restaurant</h5>
+                        <h5 class="offcanvas-title font-extrabold text-[#FEBF00]" id="offcanvasNavbarLabel ">Restaurant</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
                     <div class="offcanvas-body ">
@@ -88,72 +88,75 @@
         </nav>
 
 
-         <!-- header offer section -->
-         <div class="about-section  min-h-screen -top-16 relative">
+         <!--About section  -->
+       
+            <div class="about-section  min-h-screen -top-16 relative ">
 
-            <div class="flex-lg-row flex flex-md-column gap-2 pt-44 md:px-24 lg:px-24 min-[200px]:px-6 justify-between">
-                <div class="staff-photo lg:h-[400px] min-[200px]:w-full lg:w-[50%]">
-                    <img class="w-full h-full rounded" src="./assets/img/efffc28c62aa90f41b3f32f793ab5dcc.jpg" alt="">
-                </div>
-                <div class="about-details lg:h-[400px] min-[200px]:w-full lg:w-[50%] px-6">
-                    <div class="card-title lg:text-4xl text-left pb-2 font-bold text-[#FEBF00]">
-                        About Our Restaurant
+                <div class="min-[200px]:flex-col flex lg:flex-row gap-2 min-[200px]:pt-8 lg:pt-44 md:px-16 lg:px-24 min-[200px]:px-6 justify-between ">
+                    <div class="staff-photo md:h-[400px] w-full lg:w-[50%] py-4">
+                        <img class="w-full h-full rounded" src="./assets/img/efffc28c62aa90f41b3f32f793ab5dcc.jpg" alt="">
                     </div>
-                    <div class="accordion" id="accordionExample">
-                        <div class="accordion-item">
-                          <h2 class="accordion-header">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                              Food Qualities
-                            </button>
-                          </h2>
-                          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample" >
-                            <div class="accordion-body">
-                                <li><strong>Freshness Checks:</strong> Perform regular checks on the freshness of ingredients, such as vegetables, meats, and seafood. Use a “first-in, first-out” (FIFO) inventory system to ensure older ingredients are used before newer ones.</li>
-                                <li><strong>Organic and Local Sourcing:</strong> Where possible, prioritize organic and locally sourced ingredients to ensure freshness, minimize transport time, and support sustainability.</li>
-                                
-                                
+                    <div class="about-details min-[200px]:w-full lg:w-[50%] md:px-6 md:text-xl min-[200px]:text-sm py-4">
+                        <div class="card-title lg:text-4xl md:text-2xl min-[200px]:text-xl text-left pb-2 font-bold text-black">
+                            About Our Restaurant
+                        </div>
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                  Food Qualities
+                                </button>
+                              </h2>
+                              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample" >
+                                <div class="accordion-body">
+                                    <li><strong>Freshness Checks:</strong> Perform regular checks on the freshness of ingredients, such as vegetables, meats, and seafood. Use a “first-in, first-out” (FIFO) inventory system to ensure older ingredients are used before newer ones.</li>
+                                    <li><strong>Organic and Local Sourcing:</strong> Where possible, prioritize organic and locally sourced ingredients to ensure freshness, minimize transport time, and support sustainability.</li>
+                                    
+                                    
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                  Behavior of Staff
+                                </button>
+                              </h2>
+                              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample" >
+                                <div class="accordion-body">
+                                 <li>Good Communication with Clients or Customers</li>
+                                 <li>Full Fill The Customer Requirement As possible</li>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                 Security Groups
+                                </button>
+                              </h2>
+                              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                 <li>We have a security group they give security for any of our client and customer in our area.</li>
+                                 <li>The security group detects the theft and punishes it.</li>
+                                </div>
+                              </div>
                             </div>
                           </div>
-                        </div>
-                        <div class="accordion-item">
-                          <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                              Behavior of Staff
-                            </button>
-                          </h2>
-                          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample" style="">
-                            <div class="accordion-body">
-                             <li>Good Communication with Clients or Customers</li>
-                             <li>Full Fill The Customer Requirement As possible</li>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="accordion-item">
-                          <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                             Security Groups
-                            </button>
-                          </h2>
-                          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                             <li>We have a security group they give security for any of our client and customer in our area.</li>
-                             <li>The security group detects the theft and punishes it.</li>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
+                    </div>
                 </div>
+    
+    
+                
+    
             </div>
-
-
-            
-
-        </div>
-        <!-- end header offer section -->
+       
+        <!-- end  about section-->
 
 
          <!--  footer -->
-         <div class="footer-area -top-16 relative ">
+         <div class="relative">
+         <div class="footer-area -top-16 absolute w-full ">
             <div class="bg-img pb-12">
                 <div class="main-area text-center space-y-12 lg:pt-48 md:pt-32 min-[200px]:pt-4 text-white">
                     <div class="title">
@@ -205,7 +208,7 @@
 
                     </div>
                     <div class="copy-write-area text-center">
-                        <div class="quick-contact flex gap-4 justify-center">
+                        <div class="quick-contact flex gap-4 justify-center pb-4">
                             <i class="bi bi-facebook"></i>
                             <i class="bi bi-twitter"></i>
                             <i class="bi bi-linkedin"></i>
@@ -217,6 +220,7 @@
                 </div>
             </div>
         </div>
+    </div>
         <!--  footer -->
     </div>
     

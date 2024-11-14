@@ -31,7 +31,7 @@
 </head>
 
 <body>
-    <div>
+    <div class="mian-container">
         <!-- Navabr -->
         
         <nav class="h-16 navbar navbar-expand-lg  fixed-top  lg:px-24 relative">
@@ -169,7 +169,7 @@
                                     50+
                                 </span>
 
-                                <span class="absolute sm:top-8 sm:left-5 min-[200px]:left-1 min-[200px]:top-3">
+                                <span class="absolute sm:top-8 sm:left-4 min-[200px]:left-1 min-[200px]:top-3">
                                     <svg width="17" height="18" viewBox="0 0 17 18" fill="none"
                                         class="responsive-svg-small sm:w-[20px] min-[200px]:w-[10px]"
                                         xmlns="http://www.w3.org/2000/svg">
@@ -223,7 +223,16 @@
                                     sit amet consectetur adipisicing elit. Natus, libero dignissimos? Sequi, tenetur
                                     inventore? Iste, dolores. Ducimus eligendi placeat dicta sequi labore doloribus
                                     dolorum ad quibusdam fugit ipsa. Laboriosam, quibusdam.</p>
-                                <button class="btn bg-[#FEBF00]">About More</button>
+
+                                    <div class="flex">
+                                        <button class="customButton rounded">
+                                            <span class="button_curve"></span>
+                                            <span class="btn rounded">About More</span></button>
+                                        
+                                           
+                                            <div class="btn"><i class="bi bi-telephone text-[#c3596f] font-bold" ></i> <span>01797692607</span></div>
+                                        </div>
+                              
                             </div>
                         </div>
                         <div class="tab-pane fade min-[200px]:text-xs md:text-sm lg:text-md " id="pills-experience"
@@ -235,7 +244,10 @@
                                     sit amet consectetur adipisicing elit. Natus, libero dignissimos? Sequi, tenetur
                                     inventore? Iste, dolores. Ducimus eligendi placeat dicta sequi labore doloribus
                                     dolorum ad quibusdam fugit ipsa. Laboriosam, quibusdam.</p>
-                                <button class="btn bg-[#c3596f]">Experience More</button>
+                                    <button class="customButton rounded">
+                                        <span class="button_curve"></span>
+                                        <span class="btn rounded">Experience More</span></button>   
+                                
                             </div>
 
                         </div>
@@ -243,15 +255,19 @@
                             role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
                             <form>
                                 <div class="flex-col flex sm:gap-4 min-[200px]:gap-2 ">
-                                    <div class="w-full space-y-2">
+                                    <div class="  md:flex md:gap-2">
                                         <input type="text" name="name" value="" placeholder="Your name"
-                                            class="border-1 p-2 sm:w-[49.5%] min-[200px]:w-full">
+                                            class="border-1 p-2 w-full max-[767.99px]:mb-2">
                                         <input type="text" name="email" value="" placeholder="Your email"
-                                            class="border-1 p-2 sm:w-[49.5%] min-[200px]:w-full">
+                                            class="border-1 p-2 w-full">
                                     </div>
                                     <textarea name="message" id="" placeholder="Your Message"
-                                        class="border-1"></textarea>
-                                    <input class="btn btn-primary" type="submit" value="Send Message">
+                                        class="border-1 p-1"></textarea>
+                                        <button class="customButton rounded">
+                                            <span class="button_curve"></span>
+                                            <input class="btn rounded" type="submit" value="Send Message">
+                                            </button> 
+                                    
                                 </div>
                             </form>
 
@@ -435,7 +451,7 @@
                                             frameborder="0" allowfullscreen></iframe>
                                     </div>
                                     <div class="lg:w-[50%] relative md:p-4 min-[200px]:w-full min-[200px]:p-2">
-                                        <div class="pt-4">
+                                        <div class="pt-4 h-full flex flex-col justify-between">
 
                                             <div class="pb-12 min-[200px]:text-sm p-4">
                                                 <p>This restaurant food very testy and sweet to test. i visit here when
@@ -474,7 +490,7 @@
                                             frameborder="0" allowfullscreen></iframe>
                                     </div>
                                     <div class="lg:w-[50%] relative md:p-4 min-[200px]:w-full ">
-                                        <div class="pt-4">
+                                        <div class="pt-4 h-full flex flex-col justify-between">
 
                                             <div class="pb-12 min-[200px]:text-sm">
                                                 <p>This restaurant food very testy and sweet to test. i visit here when
@@ -513,7 +529,7 @@
                                             frameborder="0" allowfullscreen></iframe>
                                     </div>
                                     <div class="lg:w-[50%] relative md:p-4 min-[200px]:w-full ">
-                                        <div class="pt-4">
+                                        <div class="pt-4 h-full flex flex-col justify-between">
 
                                             <div class="pb-12 min-[200px]:text-sm">
                                                 <p>This restaurant food very testy and sweet to test. i visit here when
@@ -610,14 +626,15 @@
 
                     </div>
                     <div class="copy-write-area text-center">
-                        <div class="quick-contact flex gap-4 justify-center">
+                        <div class=" quick-contact flex gap-4 justify-center pb-4" >
                             <i class="bi bi-facebook"></i>
                             <i class="bi bi-twitter"></i>
                             <i class="bi bi-linkedin"></i>
-
                             <i class="bi bi-instagram"></i>
                         </div>
-                        <p class="text-xs">© 2024 All Rights Reserved </p>
+                       <div>
+                        <p class="text-xs ">© 2024 All Rights Reserved </p>
+                       </div>
                     </div>
                 </div>
             </div>
